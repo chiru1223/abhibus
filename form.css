@@ -1,0 +1,76 @@
+
+#form-container {
+    width: 500px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+}
+
+form{
+    padding: 15px;
+}
+.header{
+    padding: 10px 15px;
+}
+
+.input-Text{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+
+.checkbox{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid darkgray
+}
+
+.radioBox{
+    border: 1px solid darkgray;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+
+#Tittle{
+    color: red;
+    font-size: 32px;
+
+}
+
+
+#subText{
+    color: green;
+    font-size: 22px;
+}
+
+.input-text{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px slategrey;
+    padding-left: 10px;
+}
+.radioBox{
+
+}
+
+.signupbtn{
+    background-color:green ;
+    color: white;
+    width: 200px;
+    height: 36px;
+    outline: auto;
+}
+.resetbtn{
+    background-color:green ;
+    color: white;
+    width: 200px;
+    height: 36px;
+    outline: auto;
+
+}

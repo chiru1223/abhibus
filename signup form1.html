@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./form.css" />
+    <link rel="icon" href="./fbicon.png" />
+
+
+    <title>Signup Form</title>  
+    
+
+     
+</head>
+
+<body>
+  <div id="form-container">
+       <div class="header">
+       <h1>Signup</h1>
+       <span>Its quick and easy.</span>
+       </div>
+       <hr/>
+
+    <form>
+
+        <input class="input-Text" type="text" name="First name"/>
+       
+        <input class="input-Text" type="text" name="Surname"/>
+        <br/>
+        <br/>
+        <input class= "input-Text" type="number" placeholder=" mobile number" name ="mobile"/>
+        <br/>
+        <br/>
+        <input class= "input-Text" type="email" placeholder="email adress"/>
+        <br/>
+        <br/>
+        <input class= "input-Text" type="password" placeholder="password"/>
+        <br/>
+
+        <h4>Gender</h4>
+          <span class="radioBox">
+             <label for="Gender">Male</label>
+             <input type="radio" placeholder="male" name="Gender"/>
+          </span>
+          <span class="radioBox">
+             <label for="gender">Female</label>
+             <input type="radio" placeholder="female" name="Gender"/>
+           </span>
+           <span class="radioBox">
+             <label type="Gender">Custom</label>
+             <input type="radio" placeholder="custom" name="Gender"/>
+           </span>
+        <br/>
+        <br/>
+        <h4>known languages</h4>
+        <span class="checkbox">
+        <input type="checkbox" placeholder="hindi" name="language1"/>
+        <label for="language1">hindi</label>
+        </span>
+        <input type="checkbox" placeholder="English" name="language2"/>
+        <label for="language2">English</label>
+        <input type="checkbox" placeholder="telugu" name="language3"/>
+        <label for="language3">Telugu</label>
+        <h4>date of birth</h4>
+        <label for="dob">Date of Birth</label>
+        <select name="dob">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <p>
+            <div>
+               People who use our service may have uploaded your contact information to Facebook. Learn more.
+            </div>
+            
+            <div>
+                By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+
+Sign Up
+            </div>
+        </p>
+        <div>
+        <input class="signupbtn"  type="submit" value="signup"/>
+        <input class="resetbtn" type="reset"/>
+        </div>
+        
+        
+
+    </form> 
+   </div>
+    
+</body>
+</html>
+
